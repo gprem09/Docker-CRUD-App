@@ -1,0 +1,36 @@
+:root {
+    --background-color: #E6E6FA;
+    --bs-primary-rgb: indigo;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--bs-primary-rgb);
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-image: url(../img/noise-bg.png);
+  }
+
+  h1,h2,h3,h4,h5,h6 {
+    font-weight: 800;
+  }
+  
+  .container-fluid-custom {
+    max-width: 1600px;
+  }
+
+  .btn {
+    margin-top: 20px;
+    margin-right: 10px;
+    border-radius: 2rem;
+    background-color: var(--bs-primary-rgb);
+  }
+  
+  
+  .pagination {
+    --bs-pagination-color: var(--bs-primary-rgb);
+    --bs-pagination-active-bg: var(--bs-primary-rgb);
+    --bs-pagination-active-border-color: var(--bs-primary-rgb);
+  }
+
